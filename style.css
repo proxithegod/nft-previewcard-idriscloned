@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    /* border: 1px solid red; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(217, 54%, 11%);
+}
+
+main {
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    padding: 20px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.nftbox {
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    height: 40vh;
+    width: 20vw;
+    background-image: url(./images/image-equilibrium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.textbox {
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    height: 30vh;
+    width: 20vw;
+    color: white;
+}
+
+h1 {
+    font-size: 1em;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+}
+
+.ethcode {
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ethnumber {
+    display: flex;
+    gap: 5px;
+    width: 50%;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+
+.ethdays {
+    display: flex;
+    gap: 5px;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+
+.lastcontent {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.avatar {
+    border: 1px solid white;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+}
+
+h4 {
+    font-size: 0.7em;
+}
+
+span {
+    color: hsl(215, 51%, 70%);
+}
